@@ -9,7 +9,7 @@
 * if we did gcd * lcd we would get 2<sup>min(j0,k0)</sup> * 2<sup>max(j0,k0)</sup> * ... and eventually get gcd*lcd = xy
 
 ###Checking for Primality
-'''
+```
 boolean primeNaive(int n)
 {
 	if (n<2)
@@ -25,4 +25,4 @@ boolean primeNaive(int n)
 	}
 	return true;
 }
-'''
+```
