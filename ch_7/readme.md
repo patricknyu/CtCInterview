@@ -26,4 +26,3 @@ boolean primeNaive(int n)
 	return true;
 }
 '''
-
