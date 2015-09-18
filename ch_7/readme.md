@@ -99,6 +99,17 @@ int getNextPrime(boolean[] flags, int prime)
 This can be easily optimized.
 
 ###Probability
+Just some formulas
 
+- P(A & B) = P(B|A)*P(A)
+- P(A or B) = P(A) + P(B) - P(A & B)
+- If A and B are independent P(A & B) = P(A)*P(B)
+- If A and B are mutually exclusive (if one happens, the other cannot happen: P(A or B) = P(A) + P(B), P(A & B) = 0
+
+###Things to watch out for
+
+- Precision with floats and doubles
+- Don't assume things are integers
+- Do not assume independence
 
 
