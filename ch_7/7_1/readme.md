@@ -1,4 +1,5 @@
 #7_1
+
 ##Q:
 You have a basketball hoop and someone says that you can play one of two games.
 
@@ -21,7 +22,9 @@ P(B) = 3p<sup>2</sup>(1-p) + p<sup>3</sup> = 3p<sup>2</sup> - 3p<sup>3</sup> + p
 Now when we compare P(A) and P(B), we see that we play game 1 when:
 
 P(A) > P(B)
+
 p > 3p<sup>2</sup> - 2p<sup>3</sup>
+
 1 > 3p - 2p<sup>2</sup>
 
 We factor and get
@@ -33,6 +36,7 @@ Since p < 1, we know that p - 1 < 0.
 That means that in order to keep this positive, we must keep 2p-1 negative as well.
 
 2p-1 < 0
+
 p < .5
 
 So we play game 1 when p < .5.  We also see that when p = 0,.5,1 P(A) = P(B).  When p > .5, we choose game 2.
