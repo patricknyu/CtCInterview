@@ -35,10 +35,12 @@ Personally, my intercept method would look a little different.
 ```java
 public boolean intersect2(Line line2)
 {
-	if(Math.abs(slope-line2.slope)<epsilon && (yintercept != line2.yintercept))
+	if(Math.abs(slope-line2.slope)<epsilon && Math.abs(yintercept - line2.yintercept) >epsilon)
 	{
 		return true;
 	}
 	return false;
 }
 ```
+
+
